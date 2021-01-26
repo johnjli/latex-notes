@@ -1,0 +1,38 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{circuitikz}
+
+\title{Lecture 5 Notes}
+\author{Lecture taught by Professor Baumann \thanks{Notes by John Li}}
+\date{2021 January 26}
+
+
+\begin{document}
+
+    \maketitle
+
+    Quiz 1 - Next Tuesday Feb $2^{nd}$
+
+    Practice: Add $33 + 23$ in signed binary
+
+    \begin{align}
+        Range: -2^{n-1} ... + 2^{n-1} - 1 \\
+        2^5 = 32 \\
+        2^6 = 64 \\
+        2^7 = 128 <-- -64... + 63 \\
+        + 33 : 2^5 + 2^0 = 0100001 \\
+        + 23 : 2^4 + 2^2 + 2^1 + 2^0 = 0010111 \\
+        0100001 + 0010111 = 0111000 \\
+        = 2^5 + 2^4 + 2^3 = 32 + 16 + 8 = 56
+    \end{align}
+
+    \begin{circuitikz} \draw
+        (0,2) node[and port] (myand1) {}
+        (0,0) node[and port] (myand2) {}
+        (2,1) node[xnor port] (myxnor) {}
+        (myand1.out) -- (myxnor.in 1)
+        (myand2.out) -- (myxnor.in 2);
+    \end{circuitikz}
+
+\end{document}
