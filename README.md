@@ -12,6 +12,4 @@ Since these classes are at ASU, I've included a class description table for thos
 | MAT 300 | Mathematical structure |
 
 ## About Me
-
-[JohnJLi]
-(https://johnjli.com)
+[JohnJLi](https://johnjli.com)
