@@ -1,0 +1,81 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+
+\title{Chapter 2 Notes}
+\author{John J Li \thanks{notes from "How to Prove It" by Daniel J. Velleman}}
+\date{\today}
+
+\begin{document}
+    \pagenumbering{gobble}
+
+    \begin{titlepage}
+        \maketitle
+    \end{titlepage}
+
+    \pagenumbering{arabic}
+
+    \tableofcontents{}
+
+    \newpage
+
+    \section{Quantifiers}
+
+    $\forall x \, P(x)$ reads: "For all $x$, $P(x)$." This symbol is called the \emph{universal quantifier}
+    because the statement states that P(x) is universally true. This statement is saying that the
+    truth set of $P(x)$ is equal to $U$.
+
+    $\exists x \, P(x)$ reads: "There exists an $x$ such that $P(x)$." This symbol is called the
+    \emph{existential quantifier}. $P(x)$ is true for at least one value of $x$.
+
+    The quantifiers \emph{binds} a variable. So $x$ is a bound variable in the statements
+    $\forall x \, P(x)$ and $\exists x \, P(x)$.
+
+    \subsection{Example}
+
+    What do the following formulas mean? Are they true or false?
+
+    \begin{enumerate}
+        \item $\forall x \, (x^2 \geq 0) \in \mathbb{R}$
+        \item $\exists x \, (x^2 - 2x + 3 = 0) \in \mathbb{R}$
+        \item $\exists x \, (M(x) \land B(x))$ where the universe is the set of all people.
+            $M(x)$ stands for: "$x$ is a man," and $B(x)$ stands for: "$x$ has brown hair."
+        \item $\forall x \, (M(x) \rightarrow B(x))$ with same universe and definition as $3.$
+        \item $\forall x \, L(x,y)$ where the universe is the set of all people,
+            and $L(x,y)$ means "x likes y."
+    \end{enumerate}
+
+    \subsubsection*{Solutions}
+
+    \begin{enumerate}
+        \item true
+        \item true
+        \item true
+        \item false
+        \item not enough information
+    \end{enumerate}
+
+    \subsection{Example}
+
+    Analyze the logical forms of the following statements.
+
+    \begin{enumerate}
+        \item Someone didn't do the homework
+        \item Everything in that store is either overpriced or poorly made
+        \item Nobody's perfect
+        \item Susan likes everyone who dislikes Joe
+        \item $A \subseteq B$
+        \item $A \cap B \subseteq B \setminus C$
+    \end{enumerate}
+
+    \subsubsection*{Solutions}
+
+    \begin{enumerate}
+        \item $\exists x$ ($x$ didn't do the hw)
+        \item $\forall x$ ((x in the store) $\rightarrow$ ((x is overpriced) $\lor$ (x is poorly made))
+        \item $\neg \exists x$ (x is perfect)
+        \item 
+        \item not enough information
+    \end{enumerate}
+
+\end{document}
