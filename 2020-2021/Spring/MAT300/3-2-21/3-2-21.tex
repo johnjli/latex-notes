@@ -1,0 +1,37 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+
+\title{3/2/21 Class Notes}
+\author{John J Li \thanks{notes from MAT300 Lecture}}
+\date{\today}
+
+\begin{document}
+    \pagenumbering{gobble}
+
+    \begin{titlepage}
+        \maketitle
+    \end{titlepage}
+
+    \pagenumbering{arabic}
+
+    \tableofcontents{}
+
+    \newpage
+
+    \section{Example}
+
+    Example: Show that $9|(4^n + 6n-1)$ for every $n \in \mathbb{Z}$.
+
+    \begin{proof}
+        1) n = 0.
+        Then $4^n+6n-1=4^0-1=0=0\cdot 9$ and so $9|(4^n+6n-1)$ when n = 0.
+
+        2) $p(n) \rightarrow p(n+1)$ 
+        $4^{4+1} + 6(n+1)-1=4 \cdot (4^n+6n-1) - 18n + 9$
+        $=4\cdot 9k- 18n+9 = 9(4k-2n+1)$ and $4k-2n+1 \in \mathbb{Z}$
+        and so $9|(4^{n+1}+6(n+1)-1)$
+    \end{proof}
+
+\end{document}

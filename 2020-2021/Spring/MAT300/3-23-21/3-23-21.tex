@@ -1,0 +1,87 @@
+\documentclass{article}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{John J Li}
+\rhead{MAT300 Spring Notes}
+\rfoot{\thepage}
+\lfoot{March 2021}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{MAT300 Spring Notes}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+    \noindent\rule{\textwidth}{0.8pt}
+
+    \section*{Notes}
+
+    The domain of R is:
+    \[Dom(R)=\{a\in A|(a,b) \in R\}\]
+
+    \textbf{Definition 5} Let $R$ be a relation from $A$ to $B$ and let $S$ be a relation from
+    $B$ to $C$. Then the composition of $S$ and $R$ is the relation $S\dot R$ from $A$ to $C$.
+
+    \[S\dot R=\{(a,c)\in A\times C|\exists_{b\in B}(a,b)\in R \land (b,c)\in S\}\].
+
+    \textbf{Properties of relations}
+
+    Let $R$ be a relation on $A$. ($R\in A\times A$)
+
+    $R$ is called reflexive if for every $a\in A$. 
+    \[aRa\]
+    \[\forall_{a\in A} (a,a)\in R\]
+
+    $R$ is called irreflexive if for every $a\in A$, 
+    \[\neg aRa\]
+    \[\forall_{a\in A} (a,a)\notin R\]
+
+    $R$ is called symmetric if for every $a,b\in A$
+    \[aRb\rightarrow bRa\]
+    \[\forall_a\forall_b(a,b)\in R\rightarrow (b,a)\in R\]
+
+    $R$ is called asymmetric if for every $a,b,\in A$,
+    \[aRb\rightarrow\neg bRa\]
+    \[\forall_a\forall_b(a,b)\in R\rightarrow (b,a)\notin R\]
+    
+    $R$ is antisymmetric if for every $a,b\in A$,
+    \[(aRb\land bRa)\rightarrow(a=b)\] 
+    \[\forall{a\in A}\forall_{b\in A}((a,b)\in R\land (b,a))\]
+
+    $R$ is called transitive if for every $a,b,c\in A$,
+    \[(aRb\land bRc)\rightarrow aRc\]
+
+
+    %###################################################################################
+
+    \section*{Examples}
+
+    The relation of less than or equal to, $\leq$, on $R$.
+
+    \begin{enumerate}
+        \item reflexive: $\forall_{a\in\mathbb{R}} a=a$
+        \item symmetric: $\forall_{a,b\in\mathbb{R}} a=b\rightarrow b=a$
+        \item antisymmetric: $\forall_{a,b\in\mathbb{R}} (a=b\land b=a)\rightarrow a=b$
+        \item transitive
+    \end{enumerate}
+
+
+    The relation of equality, $=$, on $R$
+
+    
+
+\end{document}

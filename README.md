@@ -1,6 +1,6 @@
 # Notes for All my Classes
 
-These are the notes I've taken and will take during my time at college as a computer science major. Hopefully this will help you as much as it has helped me.
+These are the notes I've taken and will take during my time at college as a computer science and math major. Hopefully this will help you as much as it has helped me.
 
 ## Class descriptions
 
@@ -12,4 +12,4 @@ Since these classes are at ASU, I've included a class description table for thos
 | MAT 300 | Mathematical structure |
 
 ## About Me
-[JohnJLi](https://johnjli.com)
+[John J Li](https://johnjli.com)
