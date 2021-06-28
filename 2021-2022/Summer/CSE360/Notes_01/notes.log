@@ -1,0 +1,325 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  10 JUN 2021 13:19
+entering extended mode
+**d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/notes.tex
+(d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/notes.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg")) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty"
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen149
+\enit@toks=\toks19
+\enit@inbox=\box47
+\enit@count@id=\count188
+\enitdp@description=\count189
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count190
+\l__pdf_internal_box=\box48
+) (d:/School\_latex-notes\2021-2022\Summer\CSE360\Notes\notes.aux)
+\openout1 = `notes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
+* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=433.62pt
+* \textheight=578.15999pt
+* \oddsidemargin=9.67395pt
+* \evensidemargin=9.67395pt
+* \topmargin=-2.51526pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count191
+\scratchdimen=\dimen150
+\scratchbox=\box49
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen151
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks21
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 23.
+<WaterfallModel.png, id=1, 346.896pt x 198.55232pt>
+File: WaterfallModel.png Graphic file (type png)
+<use WaterfallModel.png>
+Package pdftex.def Info: WaterfallModel.png  used on input line 43.
+(pdftex.def)             Requested size: 242.82553pt x 138.98566pt.
+ [1
+
+{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/WaterfallModel.png>]
+<V-Model.png, id=12, 234.30695pt x 187.902pt>
+File: V-Model.png Graphic file (type png)
+<use V-Model.png>
+Package pdftex.def Info: V-Model.png  used on input line 61.
+(pdftex.def)             Requested size: 164.01373pt x 131.53049pt.
+<IncrementalModel.png, id=13, 332.442pt x 167.3621pt>
+File: IncrementalModel.png Graphic file (type png)
+<use IncrementalModel.png>
+Package pdftex.def Info: IncrementalModel.png  used on input line 76.
+(pdftex.def)             Requested size: 232.70781pt x 117.15266pt.
+ [2 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/V-Model.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/IncrementalModel.png>]
+<Prototyping.png, id=19, 422.96968pt x 128.56453pt>
+File: Prototyping.png Graphic file (type png)
+<use Prototyping.png>
+Package pdftex.def Info: Prototyping.png  used on input line 86.
+(pdftex.def)             Requested size: 296.07675pt x 89.99454pt.
+File: IncrementalModel.png Graphic file (type png)
+<use IncrementalModel.png>
+Package pdftex.def Info: IncrementalModel.png  used on input line 100.
+(pdftex.def)             Requested size: 232.70781pt x 117.15266pt.
+ [3 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/Prototyping.png>] [4]
+<AgileVSPlan.png, id=28, 312.66284pt x 233.5462pt>
+File: AgileVSPlan.png Graphic file (type png)
+<use AgileVSPlan.png>
+Package pdftex.def Info: AgileVSPlan.png  used on input line 177.
+(pdftex.def)             Requested size: 218.86249pt x 163.48122pt.
+<Scrum.png, id=29, 492.95747pt x 222.89589pt>
+File: Scrum.png Graphic file (type png)
+<use Scrum.png>
+Package pdftex.def Info: Scrum.png  used on input line 194.
+(pdftex.def)             Requested size: 295.77676pt x 133.73856pt.
+ [5 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/AgileVSPlan.png>] [6 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/Scrum.png>]
+<types_of_requirements.png, id=38, 364.36125pt x 268.00125pt>
+File: types_of_requirements.png Graphic file (type png)
+<use types_of_requirements.png>
+Package pdftex.def Info: types_of_requirements.png  used on input line 251.
+(pdftex.def)             Requested size: 255.05113pt x 187.59958pt.
+<non-functional_requirements.png, id=39, 429.10312pt x 240.14719pt>
+File: non-functional_requirements.png Graphic file (type png)
+<use non-functional_requirements.png>
+Package pdftex.def Info: non-functional_requirements.png  used on input line 269.
+(pdftex.def)             Requested size: 300.37013pt x 168.10187pt.
+ [7 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/types_of_requirements.png>] [8 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/non-functional_requirements.png>]
+<block_diagram.png, id=50, 284.56313pt x 253.69781pt>
+File: block_diagram.png Graphic file (type png)
+<use block_diagram.png>
+Package pdftex.def Info: block_diagram.png  used on input line 339.
+(pdftex.def)             Requested size: 199.19283pt x 177.58725pt.
+ [9 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/block_diagram.png>]
+<4+1_View_model.png, id=55, 240.9pt x 177.66376pt>
+File: 4+1_View_model.png Graphic file (type png)
+<use 4+1_View_model.png>
+Package pdftex.def Info: 4+1_View_model.png  used on input line 370.
+(pdftex.def)             Requested size: 168.62883pt x 124.36377pt.
+ [10 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/4+1_View_model.png>]
+<model_view_controller.png, id=60, 316.93407pt x 215.30438pt>
+File: model_view_controller.png Graphic file (type png)
+<use model_view_controller.png>
+Package pdftex.def Info: model_view_controller.png  used on input line 398.
+(pdftex.def)             Requested size: 221.85233pt x 150.71204pt.
+<model_view_controller-webbrowser.png, id=61, 279.29344pt x 238.64156pt>
+File: model_view_controller-webbrowser.png Graphic file (type png)
+<use model_view_controller-webbrowser.png>
+Package pdftex.def Info: model_view_controller-webbrowser.png  used on input line 399.
+(pdftex.def)             Requested size: 195.50407pt x 167.04794pt.
+<model_view_controller-desc.png, id=62, 432.86719pt x 268.75406pt>
+File: model_view_controller-desc.png Graphic file (type png)
+<use model_view_controller-desc.png>
+Package pdftex.def Info: model_view_controller-desc.png  used on input line 401.
+(pdftex.def)             Requested size: 303.00496pt x 188.12656pt.
+<layered_architecture.png, id=63, 280.79906pt x 207.02344pt>
+File: layered_architecture.png Graphic file (type png)
+<use layered_architecture.png>
+Package pdftex.def Info: layered_architecture.png  used on input line 411.
+(pdftex.def)             Requested size: 196.558pt x 144.9154pt.
+ [11 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/model_view_controller.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/model_view_controller-webbrowser.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/model_view_controller-desc.png>]
+<layered_architecture-desc.png, id=70, 543.53062pt x 219.82124pt>
+File: layered_architecture-desc.png Graphic file (type png)
+<use layered_architecture-desc.png>
+Package pdftex.def Info: layered_architecture-desc.png  used on input line 414.
+(pdftex.def)             Requested size: 380.46883pt x 153.87381pt.
+<layered_architecture-example.png, id=71, 250.68657pt x 233.37187pt>
+File: layered_architecture-example.png Graphic file (type png)
+<use layered_architecture-example.png>
+Package pdftex.def Info: layered_architecture-example.png  used on input line 415.
+(pdftex.def)             Requested size: 175.47939pt x 163.35919pt.
+<repository_architecture.png, id=72, 365.86688pt x 163.3603pt>
+File: repository_architecture.png Graphic file (type png)
+<use repository_architecture.png>
+Package pdftex.def Info: repository_architecture.png  used on input line 426.
+(pdftex.def)             Requested size: 256.10506pt x 114.35143pt.
+<repository_architecture-desc.png, id=73, 542.77782pt x 218.31563pt>
+File: repository_architecture-desc.png Graphic file (type png)
+<use repository_architecture-desc.png>
+Package pdftex.def Info: repository_architecture-desc.png  used on input line 427.
+(pdftex.def)             Requested size: 379.94188pt x 152.81989pt.
+ [12 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/layered_architecture.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/layered_architecture-desc.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/layered_architecture-example.png>]
+<client-server_architecture.png, id=80, 303.38344pt x 170.13562pt>
+File: client-server_architecture.png Graphic file (type png)
+<use client-server_architecture.png>
+Package pdftex.def Info: client-server_architecture.png  used on input line 437.
+(pdftex.def)             Requested size: 212.36694pt x 119.0941pt.
+<client-server_architecture-desc.png, id=81, 545.03625pt x 219.82124pt>
+File: client-server_architecture-desc.png Graphic file (type png)
+<use client-server_architecture-desc.png>
+Package pdftex.def Info: client-server_architecture-desc.png  used on input line 438.
+(pdftex.def)             Requested size: 381.52278pt x 153.87381pt.
+ [13 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/repository_architecture.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/repository_architecture-desc.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/client-server_architecture.png>]
+<pipe_and_filter_architecture.png, id=89, 527.72156pt x 150.5625pt>
+File: pipe_and_filter_architecture.png Graphic file (type png)
+<use pipe_and_filter_architecture.png>
+Package pdftex.def Info: pipe_and_filter_architecture.png  used on input line 447.
+(pdftex.def)             Requested size: 369.40257pt x 105.39302pt.
+<pipe_and_filter_architecture-desc.png, id=90, 542.77782pt x 221.32687pt>
+File: pipe_and_filter_architecture-desc.png Graphic file (type png)
+<use pipe_and_filter_architecture-desc.png>
+Package pdftex.def Info: pipe_and_filter_architecture-desc.png  used on input line 448.
+(pdftex.def)             Requested size: 379.94188pt x 154.92773pt.
+ [14 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/client-server_architecture-desc.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/pipe_and_filter_architecture.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/pipe_and_filter_architecture-desc.png>]
+<cohesion.png, id=97, 213.00632pt x 183.33759pt>
+File: cohesion.png Graphic file (type png)
+<use cohesion.png>
+Package pdftex.def Info: cohesion.png  used on input line 486.
+(pdftex.def)             Requested size: 149.1034pt x 128.33542pt.
+ [15]
+<coupling.png, id=101, 193.22716pt x 165.0799pt>
+File: coupling.png Graphic file (type png)
+<use coupling.png>
+Package pdftex.def Info: coupling.png  used on input line 504.
+(pdftex.def)             Requested size: 135.25807pt x 115.55513pt.
+<encapsulation.png, id=102, 149.05687pt x 81.30376pt>
+File: encapsulation.png Graphic file (type png)
+<use encapsulation.png>
+Package pdftex.def Info: encapsulation.png  used on input line 515.
+(pdftex.def)             Requested size: 104.3391pt x 56.91223pt.
+ [16 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/cohesion.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/coupling.png>]
+<abstraction.png, id=108, 147.55125pt x 204.765pt>
+File: abstraction.png Graphic file (type png)
+<use abstraction.png>
+Package pdftex.def Info: abstraction.png  used on input line 526.
+(pdftex.def)             Requested size: 103.28516pt x 143.3345pt.
+ [17 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/encapsulation.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes/abstraction.png>] [18] (d:/School\_latex-notes\2021-2022\Summer\CSE360\Notes\notes.aux) ) 
+Here is how much of TeX's memory you used:
+ 2385 strings out of 479618
+ 38817 string characters out of 2864038
+ 320473 words of memory out of 3000000
+ 19544 multiletter control sequences out of 15000+200000
+ 408020 words of font info for 42 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,11n,74p,259b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\John Li\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on d:/School\_latex-notes\2021-2022\Summer\CSE360\Notes\notes.pdf (18 pages, 1001144 bytes).
+PDF statistics:
+ 138 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+
