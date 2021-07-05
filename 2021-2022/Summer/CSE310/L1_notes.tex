@@ -1,0 +1,169 @@
+\documentclass{article}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{color}
+
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\titleText}{CSE310 Lecture 1 Notes}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{John J Li}
+\rhead{\titleText}
+\rfoot{\thepage}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{\titleText}
+\date{\today}
+\author{John J Li}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+    language=Java,
+    aboveskip=3mm,
+    belowskip=3mm,
+    showstringspaces=false,
+    columns=flexible,
+    basicstyle={\small\ttfamily},
+    numbers=none,
+    numberstyle=\tiny\color{gray},
+    keywordstyle=\color{blue},
+    commentstyle=\color{dkgreen},
+    stringstyle=\color{mauve},
+    breakatwhitespace=true,
+    tabsize=3
+}
+
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+    \noindent\rule{\textwidth}{0.8pt}
+
+    \section*{The Sorting Problem - Formal definition}
+
+    Sorting problem:
+    \begin{itemize}
+        \item 
+        Input: a sequence of $n$ numbers $<a_1,a_2,...,a_n>$.
+        \item
+        Output: a permetation (reordering) [of the input] $<a_1',a_2',...,a_n'>$
+        such that $a_1'\leq a_2' \leq a_n'$
+    \end{itemize}
+
+    \subsection*{Insertion Sort: Analogy to storing cards...}
+
+    There may be many ways to sort cards, but one intuitive procedure is to 
+    always insert a card into the right place.
+    \begin{itemize}
+        \item Works naturally when you draw a stack of cards one-by-one and put them into 
+        your hand.
+        \item Similarily, if you sort all cards in your hand $\rightarrow$ \emph{"in place"} 
+        sorting
+    \end{itemize}
+
+    \subsection*{Computationally represent the procedure}
+
+    Pseudocode: Liberal user of English; Use of indentation for block structure; Omission
+    of error handling (e.g. check if an array is empty).
+
+    \begin{lstlisting}
+        // Pseudocode for insertion sort 
+
+        INSERTION-SORT(A)
+        for j=2 to A.length // A.length=n
+            key = A[j]
+            // Insert A[j] into sorted sequence A[1...j-1]
+            i=j-1
+            while i>0 and A[i]>key
+                A[i+1] = A[i]
+                i=i-1
+            A[i+1]=key
+    \end{lstlisting}
+
+    Example:
+    \begin{center}
+        \begin{tabular}{ccccc|l}
+            3 & 9 & 6 & 1 & 2 & 9 should be inserted after 3 - no change \\
+            3 & 9 & 6 & 1 & 2 & 6 should be inserted between 3 and 9 \\
+            3 & 6 & 9 & 1 & 2 & 1 should be inserted before 3 \\
+            1 & 3 & 6 & 9 & 2 & 2 should be inserted between 1 and 3 \\
+            1 & 2 & 3 & 6 & 9 & sorted array\\
+        \end{tabular}
+    \end{center}
+
+    \subsubsection*{Analysis of the Insertion-sort algorithm}
+
+    When we analyze an algorithm, we mainly focus on the performance (running-time). 
+    The running time of the algorithm depends on vaiour factors' success.
+    \begin{itemize}
+        \item depends on the nature of the input (already sorted vs. reverse sorted)
+        \item depends on the size(n) ($6$ vs $10^6$ elements) $\rightarrow$ parameterized 
+        running time.
+        \begin{itemize}
+            \item $T(n)=$ $\leftarrow$ function of the size (n).
+        \end{itemize}
+    \end{itemize}
+    Different kinds of running time analysis:
+    \begin{itemize}
+        \item Worst-case.
+        \begin{itemize}
+            \item Max time on the input size $n$ given an upperbound guarentee to the user.
+        \end{itemize}
+        \item Average case.
+        \begin{itemize}
+            \item expected time over all possible input 
+            \begin{itemize}
+                \item running time of every input and find the average. We need to know
+                the probability of each input $\rightarrow$ Input $\times$
+                probability of that input = weighted average.
+            \end{itemize}
+            we don't know the exact probability, therefore, we make assumptions
+            \begin{itemize}
+                \item all inputs are equally likely -- uniform distibution.
+            \end{itemize}
+        \end{itemize}
+        \item Best case
+        \begin{itemize}
+            \item works on some inputs only, no guarentee to the user.
+        \end{itemize}
+    \end{itemize}
+
+    Next question: how to eliminate hardware dependency from running time.
+    \begin{itemize}
+        \item parametierize the running time based on the input size and then give the 
+        growth of the running time rather than giving absolute value. $\rightarrow$ 
+        asymptotic analysis (notation)
+    \end{itemize}
+
+    Asymptotic Notation:
+    \begin{itemize}
+        \item ignore machine dependent constants
+        \item observe the growth of the running time.
+    \end{itemize}
+    One of the commonly used notation in the asymptotic noation is the $\theta$ notation.
+
+    $\theta$ notation:
+    \begin{itemize}
+        \item drop lower order terms and ignore constants 
+        \begin{itemize}
+            \item $T(n) = 3n^3+50n^2+n+600$
+            \begin{itemize}
+                \item drop $50n^2+n+600$
+                \item ignore $3$ in front of $3n^3$
+            \end{itemize}
+            \item $T(n)=\theta (n^3)$
+        \end{itemize}
+        \item this means when $n\rightarrow\infty$ $\theta(n^3)>\theta(n^2)$
+    \end{itemize}
+
+\end{document}

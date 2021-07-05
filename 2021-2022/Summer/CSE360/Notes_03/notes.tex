@@ -1,0 +1,71 @@
+\documentclass{article}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{John J Li}
+\rhead{CSE360 Summer 2021 Notes}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{CSE360 Summer 2021 Notes}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \section*{Information Management}
+
+    Information Management System (IMS)
+    \begin{itemize}
+        \item General term for software systems designed to facilitate the storage, organization, and retrieval of information
+        \item Sometimes used synonymously with Database Management System (DBMS)
+        \item Data is stored in a variety of formats
+        \item Makes it easier to access stored information
+    \end{itemize}
+
+    Steps when designing a database
+    \begin{itemize}
+        \item Requirements collection and analysis
+        \item Conceptual design
+        \item Choose a DBMS
+        \item Logical Design
+        \item Physical Design
+        \item Implementation
+    \end{itemize}
+
+    \subsection*{IMS/DBSMS vs RDBMS}
+
+    Information Management System (IMS)
+    
+    Database Management System (DBMS)
+    \begin{itemize}
+        \item Data is generally stored in either a hierachical or navigational form 
+    \end{itemize}
+
+    Relationship Database Management System (RDBMS)
+    \begin{itemize}
+        \item Data is stored in the form of tables.
+        \item Is a special type of DBMS, which is based on a relational model
+    \end{itemize}
+
+    \subsection*{Data Model}
+
+    Logical structure of a database -- describes the design of the database to 
+    reflect entities, attributes, relationship among data, constraints, etc. 
+
+    Types of data models:
+    \begin{itemize}
+        \item Object-based logical models - describes data at the conceptual 
+        and view levels (etc. ER Model)
+        \item Record-based logical models - specify logical structure of database 
+        with records, fields, and attributes (etc. Relational Model)
+    \end{itemize}
+
+\end{document}
