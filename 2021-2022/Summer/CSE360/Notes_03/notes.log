@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  29 JUN 2021 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  8 JUL 2021 13:05
 entering extended mode
 **d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes_03/notes.tex
 (d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes_03/notes.tex
@@ -153,19 +153,48 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 ) [1{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
-] (d:/School\_latex-notes\2021-2022\Summer\CSE360\Notes_03\notes.aux) ) 
+]
+<ER_diagram.png, id=8, 379.4175pt x 134.00063pt>
+File: ER_diagram.png Graphic file (type png)
+<use ER_diagram.png>
+Package pdftex.def Info: ER_diagram.png  used on input line 119.
+(pdftex.def)             Requested size: 265.59042pt x 93.79977pt.
+ [2]
+<relational_model.png, id=14, 664.73344pt x 178.41656pt>
+File: relational_model.png Graphic file (type png)
+<use relational_model.png>
+Package pdftex.def Info: relational_model.png  used on input line 147.
+(pdftex.def)             Requested size: 332.3659pt x 89.20805pt.
+ [3 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes_03/ER_diagram.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes_03/relational_model.png>] [4]
+<control-flow-graph.png, id=23, 389.95688pt x 247.67531pt>
+File: control-flow-graph.png Graphic file (type png)
+<use control-flow-graph.png>
+Package pdftex.def Info: control-flow-graph.png  used on input line 219.
+(pdftex.def)             Requested size: 233.97592pt x 148.60632pt.
+ [5 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes_03/control-flow-graph.png>]
+<partition-testing.png, id=28, 277.78781pt x 188.95593pt>
+File: partition-testing.png Graphic file (type png)
+<use partition-testing.png>
+Package pdftex.def Info: partition-testing.png  used on input line 240.
+(pdftex.def)             Requested size: 194.45012pt x 132.26823pt.
+<equivalence-partitions.png, id=29, 472.76625pt x 259.7203pt>
+File: equivalence-partitions.png Graphic file (type png)
+<use equivalence-partitions.png>
+Package pdftex.def Info: equivalence-partitions.png  used on input line 241.
+(pdftex.def)             Requested size: 283.66193pt x 155.83337pt.
+ [6 <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes_03/partition-testing.png> <d:/School/_latex-notes/2021-2022/Summer/CSE360/Notes_03/equivalence-partitions.png>] [7] [8] (d:/School\_latex-notes\2021-2022\Summer\CSE360\Notes_03\notes.aux) ) 
 Here is how much of TeX's memory you used:
- 2205 strings out of 479618
- 34488 string characters out of 2864038
- 319471 words of memory out of 3000000
- 19400 multiletter control sequences out of 15000+200000
- 404975 words of font info for 32 fonts, out of 3000000 for 9000
+ 2239 strings out of 479618
+ 35231 string characters out of 2864038
+ 322471 words of memory out of 3000000
+ 19427 multiletter control sequences out of 15000+200000
+ 405283 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,10n,74p,259b,186s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\John Li\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on d:/School\_latex-notes\2021-2022\Summer\CSE360\Notes_03\notes.pdf (1 page, 32713 bytes).
+ 68i,11n,74p,259b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\John Li\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on d:/School\_latex-notes\2021-2022\Summer\CSE360\Notes_03\notes.pdf (8 pages, 244473 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,6 +2,9 @@
 
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{enumitem}
@@ -164,6 +167,46 @@
             \item $T(n)=\theta (n^3)$
         \end{itemize}
         \item this means when $n\rightarrow\infty$ $\theta(n^3)>\theta(n^2)$
+        but for certain sizes of input, higher order term may perform better.
     \end{itemize}
+    
+    Analyzing the running time of the insertion sort. It had a for loop and a while loop. 
+    \begin{itemize}
+        \item $T(n)$ = amount of time while loop runs for each iteration and the 
+        number of times while loop is invoked
+        \begin{itemize}
+            \item $=\sum^n_{j=2}\theta(j)$
+            \begin{itemize}
+                \item This is the sum of constant numbers: $2+3+4+...+n\rightarrow$
+                Arithemic series
+                \item $T(n)=\theta(n^2)$
+            \end{itemize}
+        \end{itemize}
+        \item So in worst case: $T(n)=\theta(n^2)$
+        \item Best case: while loop will be executed only one time (k) constant time 
+        \begin{itemize}
+            \item $T(n)=\sum_{j=2}^n(k)=\theta(n)$
+        \end{itemize}
+    \end{itemize}
+
+    Importance of parameterized time complexity
+    \begin{itemize}
+        \item gives an idea about the order of growth rather than giving an absolute value
+        \item doesn't depend on the computer (hardware)
+    \end{itemize}
+
+    \subsubsection*{Activities}
+
+    Prove: $\sum_{i=1}^n i = \frac{n(n+1)}{2}$
+    \begin{proof}
+        
+    \end{proof}
+
+    Prove: $\sum_{i=2}^n i = \theta(n^2)$ 
+    \begin{proof}
+        
+    \end{proof}
+
+
 
 \end{document}
